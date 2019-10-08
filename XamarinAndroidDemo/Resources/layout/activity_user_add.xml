@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_space"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="@dimen/default_text_size_big"
+        android:text="Add New User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="@dimen/default_space_double"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+            android:id="@+id/addUserActivityEmailET"
+            style="@style/StyleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:hint="Add User Email"
+            android:maxLength="12"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no" />
+
+    <EditText
+            android:id="@+id/addUserActivityNameET"
+            style="@style/StyleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:hint="Add User Name"
+            android:maxLength="12"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no" />
+
+    <EditText
+            android:id="@+id/addUserActivityPasswordET"
+            style="@style/StyleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:hint="Add User Password"
+            android:maxLength="12"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+
+    <Button
+            android:id="@+id/addUserActivityAddButton"
+            style="@style/StyleFunctionalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_space_double"
+            android:text="Add User"/>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--
+    App general dimensions
+    -->
+  <!-- Default margin/padding space -->
+  <dimen name="default_space">16dp</dimen>
+  <dimen name="default_space_double">32dp</dimen>
+  <dimen name="default_space_half">8dp</dimen>
+  <dimen name="default_text_size">14sp</dimen>
+  <dimen name="default_text_size_small">12sp</dimen>
+  <dimen name="default_text_size_big">30sp</dimen>
+
+</resources>
